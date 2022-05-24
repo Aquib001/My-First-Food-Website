@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=(device-width), initial-scale=1.0">
+    <!-- embedded css stylying -->
+    <style> 
+     .header-element {
+       background-color: teal;
+       color: white;
+       padding: 24px;
+       margin: 0px;
+       font-size: 24px;
+       font-weight: 600;
+       text-align: justify;
+     }
+     #fooddesc {
+       text-align: center;
+     }
+     .list-item {
+       color: red;
+     }
+     .foodimage {
+       width: 300px;
+       height: 250px;
+       text-align: center;
+     }
+     .food {
+       color: black;
+     }
+     
+    </style>
+    <title>My Favourite Food</title>
+</head>
+<!-- This is the header of the website. -->
+<body class="body" style="background-color: lightblue; color: teal; margin: 0px">
+<div id="header" style="background-color: teal; padding: 24px; margin: 0px">
+    <span class="header-element"><a href="#fooditemslist">Index</a></span>
+    <span class="header-element"><a href="#food-desc">Food</a></span>
+    <span class="header-element"><a href="#about">About</a></span>
+</div>
+<div class="food-items" id="fooditemslist">
+  <!-- This is the menu of the website. -->
+  <h1 style="color: blueviolet; text-align: center;"> Top 5 Favourite Food Items</h1>
+  <ul>
+  <li><a class="list-item" href="#biryani">Biryani</a>
+  <li><a class="list-item" href="#burger">Burger</a>
+  <li><a class="list-item" href="#friedchicken">Fried Chicken</a>
+  <li><a class="list-item" href="#paneerchilly">Paneer Chilly</a>
+  <li><a class="list-item" href="#butterchicken">Butter Chicken</a>
+  </ul>
+</div>
+<!-- Separate div classes for desciption and fooditems have been made for formatting reasons. -->
+<div class="food-desc" id="food-desc">
+  <!-- This is the decriprion of the website. -->
+  <div id=fooddesc>
+    <h2 class="food" id="biryani">Biryani</h2>
+  <img class="foodimage" src="./images/biryani.jpeg" alt="Biryani image" />
+  <p>This is my faourite food item and is quite top in the list. The flavours of spices and the chicken is quite mouthwatering experience.</p>
+  </div>
+  <div id=fooddesc>
+    <h2 class="food" id="burger">Burger</h2>
+  <img class="foodimage" src="./images/burger.jpeg" alt="Burger Image"/>
+  <p>This is the second most favourite food item for me. As I love the flavours and taste of the Crispy Chicken burger of Burger King.</p>
+  </div>
+  <div id=fooddesc>
+  <h2 class="food" id="friedchicken">Fried Chicken</h2>
+  <img class="foodimage" src="./images/fchicken.jpeg" alt="Fried Chicken Image"/>
+  <p>This is one of my favourite food items. Chicken pieces are marinated and cooked in special spices. And then slowly deep fried to give crispier outside and juicier inside.</p>
+  </div>
+  <div id=fooddesc>
+    <h2 class="food" id="paneerchilly">Paneer Chilly</h2>
+  <img class="foodimage" src="./images/paneerchilly.jpeg" alt="Paneer Chilly Image"/>
+  <p>This is one of my favourite veg food item. As the flavour of the spices with paneer and capsicums mesmerise the brain with a punch of taste and flavours. This is definitely a must in my list.</p>
+  </div>
+  <div id=fooddesc>
+    <h2 class="food" id="butterchicken">Butter Chicken</h2>
+  <img class="foodimage" src="./images/butterchicken.jpeg" alt="Butter Chicken Image"/>
+  <p>This is one of my favouite non veg veg dishes that I like as a guilty pleasure. really enjoy having Butter Chicken along with a special type of roti called "Naan".</p>
+</div>
+  <!-- This is the about of the website. -->
+<div id="about">
+  <h2 class="about-head" style="color: red; background-color: teal; margin: 0; padding: 0; text-align: center">About Me</h2>
+  <pre>
+  <p class="about-para" style="color: black
+  ; font-size:10; text-align: center">
+    Hi!
+    Myself Mohammad Aquib.
+    I am a BCA graduate as of now and I am also a small Web Developer and currently also learning to code in React.
+    I am also planning to learn to create native applications using React Native.
+    Feel free to rate my new website and contact me for more projects. </p> </pre>
+</div>
+<div id="information" style="text-align: center
+;">
+  <span style="color: grey;">Please provide your name and email in the box below.</span> <br>
+  <input type="text" name="Your Name" required>
+    <button>Submit</button>
+    <p style="color: magenta; font-size: 12px;">Your visit is imortant to us. We will contact you shortly. </p>
+</div>
+</body>
+</html>
+
+<!-- Future plan
+To make this website reactive and responsive. Beautify it with a javascipt framework like react and hopefully sell it someday. -->
